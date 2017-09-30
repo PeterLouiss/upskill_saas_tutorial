@@ -16,7 +16,19 @@
  
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
- 
+
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
+}
+
+body, .navbar {
+    background: #C9D6FF;
+    background: -webkit-linear-gradient(left, #E2E2E2, #C9D6FF);
+    background: -moz-linear-gradient(left, #E2E2E2, #C9D6FF);
+    background: -o-linear-gradient(left, #E2E2E2, #C9D6FF);
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF);
+}
+
+.navbar {
+    border: none;
 }
