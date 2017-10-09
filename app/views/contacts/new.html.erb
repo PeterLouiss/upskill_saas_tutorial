@@ -20,7 +20,7 @@
             <%= f.text_area :comments, class: 'form-control' %>
           </div>
           
-          <%= flash[:notice] %>
+          <%= flash[:error] %>
           <%= f.submit 'Submit', class: "btn btn-primary, center-block" %>
         <% end %>
       </div>
